@@ -8,5 +8,12 @@
     "psr-4": {
       "Tightenco\\Presets\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tightenco\\Presets\\PresetsServiceProvider"
+      ]
+    }
   }
 }
