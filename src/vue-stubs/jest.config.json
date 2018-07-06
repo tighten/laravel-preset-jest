@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test-watch": "npm run test -- --watch"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/resources/assets/js/components/$1"
+    },
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    },
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/jest-serializer-vue"
+    ]
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          ["env", { "targets": { "node": "current" }}]
+        ]
+      }
+    }
+  }
+}

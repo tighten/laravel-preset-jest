@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test-watch": "npm run test -- --watch"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./resources/assets/js/setupTests.js",
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [["env"], "react"]
+      }
+    }
+  }
+}
