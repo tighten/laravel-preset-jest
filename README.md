@@ -4,7 +4,7 @@ This package a drop-in replacement for the Laravel `php artisan preset` command 
 **IMPORTANT: These presets will overwrite many of the files within the `resources` directory and your `package.json` file. It is currently only recommended to use this package with new Laravel projects!**
 
 ## Installation
-To install, simply run `$ composer require tightenco\artisan-presets-jest`.
+To install, simply run `$ composer require tightenco\laravel-preset-jest`.
 
 ## Usage
 
