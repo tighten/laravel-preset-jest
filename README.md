@@ -1,14 +1,32 @@
 # Front-End Presets
-This package a drop-in replacement for the Laravel `php artisan preset` command that adds Jest testing for Vue and React.
+This package a drop-in replacement for the Laravel `php artisan preset` command. 
 
-**IMPORTANT: These presets will overwrite many of the files within the `resources` directory and your `package.json` file. It is currently only recommended to use this package with new Laravel projects!**
+*IMPORTANT: THIS REPO IS UNDER ACTIVE DEVELOPMENT! USE AT YOUR OWN RISK!*
 
 ## Installation
-To install, simply run `$ composer require tightenco\laravel-preset-jest`.
+This package is not currently on Packagist--we'll put it up once it's production ready--so you will have to link to this repo instead.
+
+To do so, add the following in your `composer.json` file:
+
+```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/tightenco/laravel-preset-jest"
+    }
+],
+"require": {
+    "tightenco/laravel-preset-jest": "@dev"
+},
+```
+
+And run:
+
+`$ composer update` to install the package.
 
 ## Usage
 
-This package gives you access to the same 4 Artisan preset commands available with a regular Laravel install. However, the command has needs to instead be run as `php artisan fe-preset`:
+This package gives you access to the same 4 Artisan preset commands available with a regular Laravel install. However, the command has needs to instead be run as `php artisan fe-preset` (although this is likely to change in the future):
 
 `$ php artisan fe-preset none`
 
