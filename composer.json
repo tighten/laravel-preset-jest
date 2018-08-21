@@ -2,7 +2,6 @@
   "name": "tightenco/laravel-preset-jest",
   "require": {
     "laravel/framework": "5.6.*",
-    "tightenco/presets": "@dev"
   },
   "autoload": {
     "psr-4": {
