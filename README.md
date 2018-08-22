@@ -1,5 +1,5 @@
 # Front-End Presets
-This package a drop-in replacement for the Laravel `php artisan preset` command. 
+This package is a drop-in replacement for the Laravel `php artisan preset` command. 
 
 *IMPORTANT: THIS REPO IS UNDER ACTIVE DEVELOPMENT! USE AT YOUR OWN RISK!*
 
@@ -26,7 +26,7 @@ And run:
 
 ## Usage
 
-This package gives you access to the same 4 Artisan preset commands available with a regular Laravel install. However, the command has needs to instead be run as `php artisan fe-preset` (although this is likely to change in the future):
+This package gives you access to the same 4 Artisan preset commands available with a regular Laravel install. However, the command needs to instead be run as `php artisan fe-preset` (although this is likely to change in the future):
 
 `$ php artisan fe-preset none`
 
